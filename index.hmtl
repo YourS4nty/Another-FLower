@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Another Flower</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <fieldset>
+        <input type="color" id="color-top" value="#ffffff" />
+        <input type="color" id="color-bot" value="#7D0080" />
+    </fieldset>
+    <h1>By @YourS4nty </h1>
+    <div class="flower">
+        <div class="leaves">
+            <div class="leaf">
+                <article>
+                    <h2>Canto de selena</h2>
+                    <p>
+                        En el libro de la vida, tu piel es la portada,
+                        una obra de arte que el tiempo guarda.
+                        Ojos café, como versos que danzan,
+                        en su mirada, la esencia de esperanza.
+
+                        Tus ojos, dos estrellas en el cielo,
+                        navegan en la noche de mis pensamientos.
+                        En su resplandor descubro el anhelo,
+                        de un amor eterno, puro y sincero.
+                    </p>
+                </article>
+            </div>
+            <div class="leaf"></div>
+            <div class="leaf">
+                <article>
+                    <h2>Carmen: Ensueño</h2>
+                    <p>
+                        Entre los versos de la noche estrellada,
+                        tu piel, es la sinfonía que encanta.
+                        Ojos café, destellos de luz divina,
+                        pintan paisajes en mi mente que espantan.
+
+                        Tus ojos, dos astros que guían mi camino,
+                        son faros en la oscuridad de mis días.
+                        En su fulgor descubro un destino,
+                        donde la felicidad se teje en melodías.
+                    </p>
+                </article>
+            </div>
+            <div class="leaf"></div>
+            <div class="leaf">
+                <article>
+                    <h2>Melodia de selena</h2>
+                    <p>
+                        Eres el lienzo de mis suspiros,
+                        la musa que inspira mi poesía.
+                        Tu piel, suave como seda al viento,
+                        es la melodía que en el alma guía.
+
+                        Tus ojos, cafés como la tierra fértil,
+                        siembran la esperanza en cada mirada.
+                        En su reflejo descubro un mundo
+                        donde el amor es la única morada.
+                    </p>
+                </article>
+            </div>
+            <div class="leaf"></div>
+            <div class="leaf">
+                <article>
+                    <h2>Suspiro De Carmen</h2>
+                    <p>
+                        En el universo de tus rasgos,
+                        la suavidad de tu piel, es un poema.
+                        Cada caricia cuenta la historia
+                        de un amor que nace como un lema.
+
+                        Tus ojos, profundos como el océano,
+                        guardan secretos que el viento susurra.
+                        En su mirada encuentro senderos,
+                        caminos que el corazón asegura.
+                    </p>
+                </article>
+            </div>
+            <div class="leaf"></div>
+            <div class="leaf">
+                <article>
+                    <h2>Noche de Selena</h2>
+                    <p>
+                        Bajo la luna que ilumina la noche,
+                        tu piel, resplandece como un suave halo.
+                        Es un lienzo de ternura y calidez,
+                        donde el amor teje su propio destello.
+
+                        Tus ojos, dos luceros en la penumbra,
+                        reflejan constelaciones de sueños.
+                        En su brillo, descubro el misterio
+                        que encierra la magia de tus anhelos.</p>
+                </article>
+            </div>
+            <div class="leaf"></div>
+        </div>
+        <button>
+            <svg viewBox="0 0 448 512" width="100" title="plus">
+                <path
+                    d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z" />
+            </svg>
+        </button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
