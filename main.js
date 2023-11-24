@@ -1,7 +1,6 @@
 const root = document.documentElement
 const flower = document.querySelector('.flower')
 const center = flower.querySelector('button')
-const rotation = document.getElementById('range-rotation')
 const colorTop = document.getElementById('color-top')
 const colorBot = document.getElementById('color-bot')
 
@@ -18,15 +17,6 @@ center.addEventListener('click', closeLeafHandler)
 function closeLeafHandler(event) {
 	const open = document.querySelector('.open')
 	if(open) open.classList.remove('open')
-}
-
-addEventListener('scroll', handleScroll)
-function handleScroll(event) {
-	const docHeight = root.scrollHeight
-	const winHeight = innerHeight
-	const scrHeight = docHeight - winHeight
-	const percent = Math.round(pageYOffset) / scrHeight
-	root.style.setProperty('--leaves-rotation', percent)
 }
 
 flower.style.setProperty(`--leaf-color-top`, colorTop.value)
