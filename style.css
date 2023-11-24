@@ -18,7 +18,8 @@ html {
 
 body {
     margin: 0;
-    min-height: 100%;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 button {
@@ -66,12 +67,6 @@ h2,
 h3 {
     font-family: "Agbalumo";
     font-size: 6vmin;
-}
-
-h1 {
-    color: white;
-    position: sticky;
-    top: 0;
 }
 
 fieldset {
@@ -263,6 +258,9 @@ input::-webkit-color-swatch {
     height: var(--leaf-open-height);
     translate: -50% -50%;
     background-image: linear-gradient(0.375turn, transparent 50%, rgba(0, 0, 0, 0.025) 50%), linear-gradient(calc(var(--leaf-index) / var(--leaf-total) * -1turn), rgba(0, 0, 0, 0.15), transparent);
+    color: black;
+    text-align: center;
+    font-size: large;
 }
 
 .flower:has(.open) {
